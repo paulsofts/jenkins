@@ -19,5 +19,12 @@ class JenkinsApplicationTests {
 		LOGGER.info("Executing Jenkins Test Cases - for testing continuous integration");
 		assertEquals(true, true);
 	}
+	
+	@Test
+	void failJenkinsBuild() {
+		//executing test case to fail for testing Jenkins CI process
+		LOGGER.info("Failing Jenkins Build...");
+		assertEquals(true, false);
+	}
 
 }
