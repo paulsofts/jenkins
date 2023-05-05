@@ -15,6 +15,8 @@ class JenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		LOGGER.info("Jenkins executing Test Cases");
+		//adding one more log statement for testing Jenkins CI process
+		LOGGER.info("Executing Jenkins Test Cases - for testing continuous integration");
 		assertEquals(true, true);
 	}
 
