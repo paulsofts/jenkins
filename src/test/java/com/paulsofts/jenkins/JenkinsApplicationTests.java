@@ -21,10 +21,10 @@ class JenkinsApplicationTests {
 	}
 	
 	@Test
-	void failJenkinsBuild() {
+	void successJenkinsBuild() {
 		//executing test case to fail for testing Jenkins CI process
-		LOGGER.info("Failing Jenkins Build...");
-		assertEquals(true, false);
+		LOGGER.info("Success Jenkins Build...");
+		assertEquals(true, true);
 	}
 
 }
