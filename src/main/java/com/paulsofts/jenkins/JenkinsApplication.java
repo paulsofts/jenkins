@@ -16,12 +16,12 @@ public class JenkinsApplication {
 	//@PostConstruct is executed once the spring bean is initialized
 	@PostConstruct
 	public void init() {
-		LOGGER.info("JenkinsApplication is Starting...");
+		LOGGER.info("JenkinsApplication is Starting....");
 		LOGGER.info("Jenkins - Introduction to Continuous Integration");
 	}
 
 	public static void main(String[] args) {
-		LOGGER.info("JenkinsApplicaion is Running!!!");
+		LOGGER.info("JenkinsApplicaion is Running!!!!");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 
