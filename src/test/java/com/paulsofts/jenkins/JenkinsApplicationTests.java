@@ -24,7 +24,7 @@ class JenkinsApplicationTests {
 	void successJenkinsBuild() {
 		//executing test case to fail for testing Jenkins CI process
 		LOGGER.info("Success Jenkins Build...");
-		assertEquals(true, true);
+		assertEquals(true, false);
 	}
 
 }
