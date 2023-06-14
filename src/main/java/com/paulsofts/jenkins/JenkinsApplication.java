@@ -18,6 +18,7 @@ public class JenkinsApplication {
 	public void init() {
 		LOGGER.info("JenkinsApplication is Starting....");
 		LOGGER.info("Jenkins - Introduction to Continuous Integration");
+		LOGGER.info("Jenkins - Pipline workflow");
 	}
 
 	public static void main(String[] args) {
